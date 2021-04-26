@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  width: 400px;
+}
+li{
+  padding: 10px;
+  width: 100%;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+}
+
+li:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.add-task, button{
+  padding: 10px;
+}
+button{
+   padding-right: 20px;
+}

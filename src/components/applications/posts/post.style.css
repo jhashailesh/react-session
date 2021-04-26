@@ -1,0 +1,23 @@
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-body{
+  width: 50%;
+  border: solid 5px #e5e5e5;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.post-body:nth-child(even){
+  background-color: #e5e5e5;
+}
+.comment-box{
+  width: 100%;
+}
+.comment-box > ul {
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+img.vdom{
+  width: 70%;
+}
+
+img.dom{
+  width: 40%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}

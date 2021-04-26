@@ -1,0 +1,16 @@
+[
+  {
+  "id": 1,
+  "task": "Vapasi 2021",
+  "deleted": false
+  },{
+    "id": 2,
+    "task": "take  session",
+    "deleted": true
+  },
+  {
+    "id": 3,
+    "task": "another task",
+    "deleted": false
+  }
+]

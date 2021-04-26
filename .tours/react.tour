@@ -1,0 +1,37 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "React",
+  "steps": [
+    {
+      "file": "src/components/codeTour/Counter.jsx",
+      "description": "Counter\n\n- We must provide a name to our custom component\n- name should start with capital letter\n- oterwise react will confuse if it is a custom component or htlm element\n- for eg: <Div /> and <div /> both are different: <Div> is custom component and <div> is from HTML",
+      "line": 3
+    },
+    {
+      "file": "src/components/codeTour/Counter.jsx",
+      "description": "useState: \n\n- a react hook\n- take a parameter of any type (say default value)\n- return two instance in form of array\n- first gives value and second instance is a function which updates the current state\n- On change of state React re-renders the component and re-paint on dom",
+      "line": 5
+    },
+    {
+      "file": "src/components/codeTour/Counter.jsx",
+      "description": "a function which will increment our state:\n\nWe can create multiple function as we need and we can bind those function to our event handlers\nLike here we bind this function with onClick handler of increment button",
+      "line": 7
+    },
+    {
+      "file": "src/components/codeTour/Counter.jsx",
+      "description": "same as previous function but it is decreasing the counter value by one",
+      "line": 11
+    },
+    {
+      "file": "src/components/codeTour/Counter.jsx",
+      "description": "In functional component we direclty return our UI representation as we can see we don't put any business logic here.\n\nThis part should not know how we are manipluating data or it's implementattion. It just need to know values required by our view.\n\nHere we are trying to create a view with two button named Decrement and Increment Respectively Showing counter value in between.",
+      "line": 15
+    },
+    {
+      "file": "src/components/applications/Todo.jsx",
+      "description": "useEffect(() => {\n    effect\n    return () => {\n      cleanup\n    }\n  }, [input])\n\n  -> Its a lifecycle hook\n  -> provide three action or cycles\n  -> It fires itself only once after componet mounts -> when no input is provided\n  -> It fires itself after componet mount or any change occurs in input value.\n  -> Cleanup function fires when componet unmount itself (when we are leaving page)\n  ",
+      "line": 9
+    }
+  ],
+  "ref": "master"
+}
