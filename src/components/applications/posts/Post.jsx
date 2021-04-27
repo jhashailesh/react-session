@@ -27,7 +27,7 @@ function Post(props) {
             <div className="comment-box">
             <ul>
               <li>
-                <p><b>Name :: dadasdasdasdsad</b></p>
+                <p><strong>Name :: dadasdasdasdsad</strong></p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <hr/>
                 <p><i>Email :: Eliseo@gardner.biz</i></p>
